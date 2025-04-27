@@ -58,7 +58,8 @@
         const res = await fetch("/products/data" + query);
         const data = await res.json();
         const container = document.getElementById("productList");
-
+        container.innerHTML = "";
+        
         const content = await Promise.all(
           data.map(async (dataItem) => {
             const productContent = await loadTemplate(
