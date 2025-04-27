@@ -1,0 +1,29 @@
+<div class="card h-100 shadow-sm border-0">
+  <div class="card-body d-flex flex-column">
+    <div class="d-flex justify-content-between align-items-start mb-2">
+      <div>
+        <h5 class="card-title mb-1">??name??</h5>
+        <span class="badge bg-secondary">??category??</span>
+      </div>
+      <div>
+        <a
+          href="/products/edit/??_id??"
+          class="btn btn-sm btn-outline-primary me-1"
+          >✏️</a
+        >
+        <button
+          class="btn btn-sm btn-outline-danger"
+          onclick="deleteProduct('??_id??')">
+          🗑
+        </button>
+      </div>
+    </div>
+    <p class="card-text text-muted small flex-grow-1">??description??</p>
+    <div class="mt-3">
+      <h6 class="fw-semibold">Variants:</h6>
+      <ul
+        class="list-group list-group-flush"
+        id="variants"></ul>
+    </div>
+  </div>
+</div>

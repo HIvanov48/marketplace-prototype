@@ -1,0 +1,13 @@
+body {
+  background-color: #f5f5f5;
+}
+
+.card {
+  border-radius: 0.75rem;
+  transition: all 0.2s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.01);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.08);
+}
